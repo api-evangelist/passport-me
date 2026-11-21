@@ -1,4 +1,4 @@
-# passport-me
+# Passport.Me
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-passport-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://passport.me/
+Passport.Me is a platform that connects your Gmail, WhatsApp (beta), Calendar, Drive, and GitHub accounts, providing unified access to personal data across services. It integrates with AI assistants like Claude, ChatGPT, and Cursor, allowing them to retrieve live data and facts about you. The service emphasizes privacy and security while offering seamless cross‑service connectivity for developers and end‑users alike, enabling richer AI‑driven experiences and streamlined workflow automation.
+
+**Areas:** Identity · Authentication · AI · Data-Integration · Privacy
+
+## Passport.Me on APIs.io
+
+Everything profiled for Passport.Me is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/passport-me/](https://apis.io/providers/passport-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Passport.Me Analytics API](https://apis.io/apis/passport-me/passport-me-analytics-api/) — Product analytics beacon (fire-and-forget).
+- [Passport.Me Discovery API](https://apis.io/apis/passport-me/passport-me-discovery-api/) — Unauthenticated catalog + status endpoints.
+- [Passport.Me MCP API](https://apis.io/apis/passport-me/passport-me-mcp-api/) — Model Context Protocol endpoint.
+- [Passport.Me OAuth API](https://apis.io/apis/passport-me/passport-me-oauth-api/) — OAuth 2.1 DCR + token flow for remote agents.
+- [Passport.Me Session API](https://apis.io/apis/passport-me/passport-me-session-api/) — Session-cookie endpoints for the dashboard at my.passport.me.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Passport.Me Agentic Access](https://apis.io/agentic-access/passport-me/passport-me-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Catalog](https://apis.io/schemas/passport-me/passport-me-catalog/)
+- [Health](https://apis.io/schemas/passport-me/passport-me-health/)
+- [IconCatalog](https://apis.io/schemas/passport-me/passport-me-icon-catalog/)
+- [LandingCatalog](https://apis.io/schemas/passport-me/passport-me-landing-catalog/)
+- [MetricsEvent](https://apis.io/schemas/passport-me/passport-me-metrics-event/)
+- [Status](https://apis.io/schemas/passport-me/passport-me-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Passport Me Context](https://apis.io/jsonld/passport-me/passport-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Passport.Me API Rules](https://apis.io/rules/passport-me/passport-me-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Passport.Me Authentication](https://apis.io/security/passport-me/passport-me-authentication/)
+- [Passport.Me Domain Security](https://apis.io/security/passport-me/passport-me-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Passport.Me Scopes](https://apis.io/scopes/passport-me/passport-me-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://passport.me/)
+- [API reference](https://passport.me/changelog)
+- [Terms of service](https://passport.me/terms)
+- [Privacy policy](https://passport.me/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.2** — developing · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 60.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 54.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/passport-me/](https://apis.io/providers/passport-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Passport.Me: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/passport-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
